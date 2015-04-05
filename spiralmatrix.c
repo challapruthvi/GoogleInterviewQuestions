@@ -35,32 +35,32 @@ int main(){
 		
 		if(test_row == tr){
 			for(i=test_col;i<=tc;i++){
-				printf("%d\n", m[test_row][i]);
-				return;
+				printf("%d", m[test_row][i]);
 			}
+			return;
 		}
 		
 		if(test_col == tc){
 			for(i=test_row;i<=tr;i++){
-				printf("%d\n", m[i][test_col]);
-				return;
+				printf("%d", m[i][test_col]);
 			}
+			return;
 		}
 		
 		for(i=test_col;i<tc;i++){
-			printf("%d\n", m[test_row][i]);
+			printf("%d", m[test_row][i]);
 		}
 		
 		for(i=test_row;i<tr;i++){
-			printf("%d\n", m[i][tc]);
+			printf("%d", m[i][tc]);
 		}
 		
 		for(i=tc;i>test_col;i--){
-			printf("%d\n", m[tr][i]);
+			printf("%d", m[tr][i]);
 		}
 		
 		for(i=tr;i>test_row;i--){
-			printf("%d\n", m[i][test_col]);
+			printf("%d", m[i][test_col]);
 		}
 		
 		test_row++;
