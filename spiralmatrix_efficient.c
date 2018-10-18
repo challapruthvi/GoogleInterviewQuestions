@@ -1,6 +1,6 @@
 // Program to print matrix elements in spiral way (Cloclwise Direction) 
 
-// Efficient Way //
+// Efficient Way // 
 
 #include<stdio.h>
 
